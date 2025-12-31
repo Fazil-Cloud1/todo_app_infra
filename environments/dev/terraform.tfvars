@@ -33,7 +33,7 @@ rgs = {
 
 sgs = {
   stg1 = {
-    sa_name                          = "stgaccount1582"
+    sa_name                          = "stgaccount1563"
     location                         = "westus"
     resource_group_name              = "rg-dev-test3"
     account_tier                     = "Standard"
@@ -285,7 +285,7 @@ vms = {
     subnet_name = "fsubnet"
     nic_name    = "fnic"
     location    = "westus"
-    kv_name     = "fkeyvault147859"
+    kv_name     = "fkeyvault147896"
     vm_username = "username"
     vm_password = "password"
 
@@ -314,7 +314,7 @@ vms = {
     subnet_name = "bsubnet"
     nic_name    = "bnic"
     location    = "westus"
-    kv_name     = "fkeyvault147859"
+    kv_name     = "fkeyvault147896"
     vm_username = "username"
     vm_password = "password"
 
@@ -341,7 +341,7 @@ vms = {
 
 kvs = {
   kv1 = {
-    kv_name                     = "fkeyvault147859"
+    kv_name                     = "fkeyvault147896"
     location                    = "westus"
     rg_name                     = "rg-dev-test3"
     enabled_for_disk_encryption = true
@@ -376,14 +376,14 @@ kvs = {
 
 kvsc = {
   kvsc1 = {
-    kv_name    = "fkeyvault147859"
+    kv_name    = "fkeyvault147896"
     rg_name    = "rg-dev-test3"
     kvsc_name  = "username"
     kvsc_value = "faziladmin"
   }
 
   kvsc2 = {
-    kv_name    = "fkeyvault147859"
+    kv_name    = "fkeyvault147896"
     rg_name    = "rg-dev-test3"
     kvsc_name  = "password"
     kvsc_value = "Fazil@123456789"
